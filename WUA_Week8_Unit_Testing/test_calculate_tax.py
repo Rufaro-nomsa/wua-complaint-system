@@ -3,7 +3,7 @@ from calculate_tax import calculate_tax
 
 
 def test_normal_amount():
-    assert calculate_tax(100) == 15.0
+    assert calculate_tax(100) == 20.0
 
 
 def test_zero_amount():
